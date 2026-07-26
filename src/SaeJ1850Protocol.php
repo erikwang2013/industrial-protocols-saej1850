@@ -13,7 +13,7 @@ use Erikwang2013\IndustrialProtocols\Protocol\ProtocolInterface;
 class SaeJ1850Protocol implements ProtocolInterface
 {
     public function getName(): string { return 'sae-j1850'; }
-    public function getVersion(): string { return '1.0.0'; }
+    public function getVersion(): string { return '1.1.1'; }
     public function getSupportedVariants(): array { return ['pwm', 'vpw']; }
     public function getDefaultPort(): int { return 0; }
 

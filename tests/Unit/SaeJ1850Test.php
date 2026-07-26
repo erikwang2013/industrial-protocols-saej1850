@@ -16,7 +16,7 @@ class SaeJ1850Test extends TestCase
     {
         $p = new SaeJ1850Protocol();
         $this->assertSame('sae-j1850', $p->getName());
-        $this->assertSame('1.0.0', $p->getVersion());
+        $this->assertSame('1.1.1', $p->getVersion());
     }
 
     public function testRequiresBridge(): void
